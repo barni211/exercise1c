@@ -14,6 +14,7 @@ import wdsr.exercise1.logic.Calculator;
 public class Main {
 	private static final Logger log = LogManager.getLogger();
 	
+	
     public static void main(String[] args) {
     	log.debug("main entered [args={}]", Arrays.toString(args));
         if (args.length == 0) {
